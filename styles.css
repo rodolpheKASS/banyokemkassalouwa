@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
     margin: 0;
     padding: 0;
 }
