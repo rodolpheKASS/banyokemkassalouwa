@@ -14,7 +14,7 @@ body {
     width: 180px;
     height: 200px;
     border-radius: 100%;
-    object-fit: fill;
+    object-fit: contain;
     display: block;
     margin: 0 auto;
 }
@@ -41,4 +41,30 @@ footer a {
     height: 100px;
     object-fit: contain;
     margin-bottom: 20px;
+}
+
+/* Style for the hobbies section */
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style for each hobby item */
+.hobby-item {
+    margin: 10px;
+    text-align: center;
+}
+
+/* Style for the hobby logo */
+.hobby-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Style for the hobby name */
+.hobby-name {
+    margin-top: 5px;
+    font-size: 14px;
 }
