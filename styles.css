@@ -12,7 +12,7 @@ body {
 
 .round-image {
     width: 180px;
-    height: 180px;
+    height: 200px;
     border-radius: 100%;
     object-fit: fill;
     display: block;
