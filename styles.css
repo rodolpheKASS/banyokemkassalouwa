@@ -9,7 +9,7 @@
 }
 
 h2 {
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 50px; /* Adjust margin as needed */
 }
 
 
@@ -57,23 +57,23 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /* Style for each hobby item */
 .hobby-item {
-    margin: 10px;
+    margin: 30px;
     text-align: center;
 }
 
 /* Style for the hobby logo */
 .hobby-logo {
-    width: 100px; /* Adjust the width as needed */
-    height: 80px;
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
 }
 
 /* Style for the hobby name */
 .hobby-name {
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 14px;
 }
