@@ -77,3 +77,24 @@ footer a {
     margin-top: 10px;
     font-size: 14px;
 }
+.video-header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-header .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-header .overlay-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
