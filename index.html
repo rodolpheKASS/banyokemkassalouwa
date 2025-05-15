@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="video-header">
-        <video autoplay muted loop playsinline class="video-bg">
+    <header class="hero-header">
+        <video class="video-bg" autoplay muted loop playsinline>
             <source src="video.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
+            Your browser does not support the video tag.
         </video>
-        <div class="overlay-content text-white text-center">
-            <h1>My Portfolio</h1>
-            <nav>
-                <a href="#about" class="text-white mx-3">About Me</a>
-                <a href="#software" class="text-white mx-3">Software Skills</a>
-                <a href="#projects" class="text-white mx-3">My Projects</a>
-                <a href="#contact" class="text-white mx-3">My Contact</a>
+    
+        <div class="overlay"></div>
+    
+        <div class="header-content text-white text-center">
+            <h1 class="animated-title">Welcome to My Portfolio</h1>
+            <nav class="nav-links d-flex justify-content-center flex-wrap">
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#software" class="nav-link">Software Skills</a>
+                <a href="#projects" class="nav-link">My Projects</a>
+                <a href="#contact" class="nav-link">My Contact</a>
             </nav>
         </div>
     </header>
